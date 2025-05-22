@@ -2,16 +2,16 @@ package com.iansergio.dslist.dto;
 
 import com.iansergio.dslist.entities.Game;
 
-public class GameDTO {
+public class GameMinDTO {
     private Long id;
     private String title;
     private Integer year;
     private String imageUrl;
     private String shortDescription;
 
-    public GameDTO(){}
+    public GameMinDTO(){}
 
-    public GameDTO(Game entity) {
+    public GameMinDTO(Game entity) {
         id = entity.getId();
         title = entity.getTitle();;
         year = entity.getYear();
